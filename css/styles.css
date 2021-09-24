@@ -1,0 +1,140 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Krona One', sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Abel', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1.6rem;
+  font-family: 'Abel', sans-serif;
+  line-height: 2;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 0.99rem;
+  font-weight: 300;
+  margin: auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+button {
+  background-color: #66BFBF;
+  border-color: transparent;
+  border-radius: 3px;
+  margin: 30px;
+}
+
+button a {
+  color: #FFFFFF;
+}
+
+/* Here starts classes*/
+.container-fluid {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+  background-image: url("../images/backimg1.jpg");
+  width: 100%;
+  min-height: 800px;
+}
+
+.txt-rotate {
+  color: red;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.nadpisy {
+  margin-top: 13rem;
+}
+
+.nadpisy h2{
+  color: #66BFBF;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+}
+
+.middle-container {
+  background-color: #f6f5f5;
+}
+
+.bottom-container {
+  background-color: #4f5254;
+  margin-bottom: 0;
+  padding: 20px;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-img-right {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-left {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile_img {
+  padding: 50px 40px 30px 40px;
+  width: 20%;
+}
+
+.icons {
+  width: 40px;
+  padding-left: 10px;
+}
+
+.skill-gray{
+  background-color: #8f018b08;
+  padding-top: 0.10px;
+  padding-bottom: 10px;
+
+}
