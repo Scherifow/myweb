@@ -48,14 +48,6 @@ button a {
 }
 
 /* Here starts classes*/
-.container-fluid {
-  background-color: #EAF6F6;
-  padding-top: 100px;
-  position: relative;
-  background-image: url("../images/backimg1.jpg");
-  width: 100%;
-  min-height: 800px;
-}
 
 .txt-rotate {
   color: red;
@@ -123,8 +115,8 @@ button a {
 }
 
 .profile_img {
-  padding: 50px 40px 30px 40px;
   width: 20%;
+  padding: 1rem;
 }
 
 .icons {
@@ -137,4 +129,48 @@ button a {
   padding-top: 0.10px;
   padding-bottom: 10px;
 
+}
+
+.navbar-brand {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-size: bold;
+  color: #fff;
+}
+
+a.nav-link  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: light;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* IDS starts here*/
+#footer {
+  padding: 5rem;
+  color: #fff;
+  background-color: #343a40;
+  font-size: 1.5rem;
+}
+
+.icon_footer {
+  font-size: 2rem;
+  padding: 0px 10px;
+}
+
+.footer-p {
+  padding: 20px 20px;
+  font-size: 1.05rem;
+}
+
+#title {
+  background-color: #EAF6F6;
+  position: relative;
+  background-image: url("../images/backimg1.jpg");
+  width: 100%;
+  min-height: 55rem;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
