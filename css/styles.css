@@ -145,6 +145,13 @@ a.nav-link  {
   color: #fff;
 }
 
+a .bi{
+  color: #FFFFFF;
+}
+
+a .bi:hover{
+  color: #99958E;
+}
 /* IDS starts here*/
 #footer {
   padding: 5rem;
