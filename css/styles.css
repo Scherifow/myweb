@@ -12,13 +12,13 @@ h1 {
 }
 
 h2 {
-  color: #66BFBF;
+  color: #360058;
   font-family: 'Abel', sans-serif;
   font-size: 2.5rem;
 }
 
 h3 {
-  color: #11999E;
+  color: #6e0071;
   font-size: 1.6rem;
   font-family: 'Abel', sans-serif;
   line-height: 2;
@@ -37,17 +37,57 @@ a {
 }
 
 button {
-  background-color: #66BFBF;
+  background-color: #360058;
   border-color: transparent;
   border-radius: 3px;
   margin: 30px;
+
 }
 
 button a {
   color: #FFFFFF;
 }
 
+
 /* Here starts classes*/
+a.nav-link  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: light;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+a .bi{
+  color: #FFFFFF;
+}
+
+a .bi:hover{
+  color: #99958E;
+}
+
+.btn {
+  color: #FFF;
+}
+
+.button-inv{
+  color: #360058;
+  border-color: #360058;
+  border-radius: 3px;
+  margin: 30px;
+}
+
+.button-inv:hover{
+  color: #FFF;
+  border-color: #360058;
+  background-color: #360058;
+  border-radius: 3px;
+  margin: 30px;
+}
+
+.notes{
+  font-size: 1.1rem;
+
+}
 
 .txt-rotate {
   color: red;
@@ -138,26 +178,21 @@ button a {
   color: #fff;
 }
 
-a.nav-link  {
-  font-family: 'Montserrat', sans-serif;
-  font-size: light;
-  font-size: 1.5rem;
-  color: #fff;
+.projects{
+  background-color: rgb(255,116,103,0.2);
+  padding: 1rem;
 }
 
-a .bi{
-  color: #FFFFFF;
+.card{
+  background-color: #f6f5f5;
+  padding: 1rem;
+  min-height: 300px;
 }
 
-a .bi:hover{
-  color: #99958E;
-}
-/* IDS starts here*/
-#footer {
-  padding: 5rem;
-  color: #fff;
-  background-color: #343a40;
-  font-size: 1.5rem;
+.card:hover{
+  background-color: #8f018b08;
+  padding: 1rem;
+  min-height: 300px;
 }
 
 .icon_footer {
@@ -168,6 +203,20 @@ a .bi:hover{
 .footer-p {
   padding: 20px 20px;
   font-size: 1.05rem;
+}
+
+/* IDS starts here*/
+
+#myprojectcard{
+  padding: 1rem;
+
+}
+
+#footer {
+  padding: 5rem;
+  color: #fff;
+  background-color: #343a40;
+  font-size: 1.5rem;
 }
 
 #title {
